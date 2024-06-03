@@ -1,4 +1,4 @@
-# This program is verified to run in Notebook instance on AWS Sagemaker
+# Verified in Notebook instance on AWS Sagemaker
 
 import io
 import pandas as pd
@@ -10,6 +10,7 @@ import boto3
 
 import sagemaker
 from sagemaker import get_execution_role
+
 
 data = pd.read_csv('s3://p4-hao/winequality-white.csv', sep=';')
 
